@@ -1,7 +1,7 @@
 body{
   font-family: dancing Georgia, 'Times New Roman', Times, serif;
   margin: 0;
-  background: color whitesmoke; ;
+  background-color: whitesmoke;
   color: black;
 }
 
@@ -13,7 +13,7 @@ header{
 }   
 nav ul{
     list-style: none;
-    padding: O;
+    padding: 0;
 }
 nav li{
     display: inline-block;
@@ -24,8 +24,10 @@ main{
 }
 main h2{
     color: darkgreen;
-
+     margin-bottom: 20px;
 }
+
+
 footer{
     background-color: darkgreen;
     color: white;
@@ -39,5 +41,31 @@ nav a{
     padding: 10px;
     margin: 5px;
     display: inline-block;
+    border-radius: 8px;
+    Transition: background-color 0.3s ease;
+}
+nav a:hover{
+    background-color: darkgreen;
+    color: white;
 }
 
+img{
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+    height: 500px;
+    margin-bottom: 20px;
+    
+}
+p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+h3{ Color: darkgreen;
+    margin-bottom: 20px;
+    
+}
+strong{
+    color: darkgreen;
+}
