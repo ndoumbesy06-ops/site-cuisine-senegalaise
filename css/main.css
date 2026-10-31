@@ -148,6 +148,16 @@ h2,header p, footer p ,h1{
     main {
         padding: 15px;
     }
+
+    .plat img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .photo-presentation img {
+        height: 250px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -196,4 +206,23 @@ form button {
 
 form button:hover {
     background-color: #600000;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 5px;
+    }
+
+    nav a {
+        display: block;
+        width: 200px;
+        text-align: center;
+        box-sizing: border-box;
+    }
 }
